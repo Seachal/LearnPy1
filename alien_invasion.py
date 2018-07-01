@@ -5,12 +5,15 @@ import sys
 
 import pygame
 
+from settings import Settings
+
 
 # 一个函数
 def run_game():
     # 初始化游戏并创建一个屏幕对象
     pygame.init()
-    screen = pygame.display.set_mode((600, 400))
+    ai_settings = Settings()
+    screen = pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height))
     pygame.display.set_caption("Alien ")
 
     bg_color = (230, 230, 230)
