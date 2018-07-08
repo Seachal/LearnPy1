@@ -1,6 +1,7 @@
 # !/usr/bin/python
 # coding:utf-8
 ##  上面两条注释可以解决 中文注释报错的问题  SyntaxError: Non-ASCII character
+
 import sys
 
 import pygame
