@@ -33,7 +33,7 @@ def run_game():
         #     if event.type == pygame.QUIT:
         #         sys.exit()
             gf.check_event(ship)
-
+            ship.update()
             # # 每次循环时都重绘屏幕
             # screen.fill(bg_color)
             #
